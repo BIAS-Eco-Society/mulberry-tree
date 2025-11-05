@@ -1,0 +1,19 @@
+:root {
+  --bg: #f7fbf7;
+  --card: #ffffff;
+  --muted: #5b6b63;
+  --accent: #4a7c59;
+  --accent-2: #2d5f3a;
+  --radius: 16px;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+body { margin: 0; background: linear-gradient(180deg, var(--bg), #eef6ee); padding: 40px; }
+.container { max-width: 1100px; margin: 0 auto; }
+.hero-image { width: 100%; border-radius: 20px; margin-bottom: 24px; }
+header { display: flex; align-items: center; gap: 18px; margin-bottom: 22px; }
+.logo { width: 72px; height: 72px; border-radius: 14px; background: linear-gradient(135deg, var(--accent), var(--accent-2)); display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; }
+h1 { margin: 0; font-size: 28px; }
+p.lead { margin: 6px 0 0; color: var(--muted); }
+.grid { display: grid; grid-template-columns: 1fr 360px; gap: 22px; margin-top: 22px; }
+.card { background: var(--card); border-radius: var(--radius); padding: 20px; box-shadow: 0 6px 24px rgba(33,33,33,0.06); }
+footer { margin-top: 18px; text-align: center; color: var(--muted); font-size: 13px; }
